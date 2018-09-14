@@ -1,0 +1,18 @@
+#
+# Optel load tester config YAML
+#
+general:
+    version: 2.17
+    server_ip: 10.101.18.49
+    server_ip: 8080
+    username: optel
+    password: OptelSecure1
+    log_output_folder: /Users/martin-pierreroy/temp
+    wsdl_url: http://{server_ip}:{server_port}/services/soap/
+    headers: {'content-type': 'text/xml'}
+
+testspecific:
+    material_master_name: GoaMM
+    quantity: 10
+    serial_number_format: raw_serial_number
+    test_duration: 15  # in seconds. ex: 1 hour = 60*60*24 = 86400 
