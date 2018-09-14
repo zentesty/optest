@@ -6,7 +6,7 @@ import yaml
 class MyLoader:
 
     color: str = "DARK BLUE"
-    temperature = 101
+    temperature = 103
 
     def __init__(self):
         pass
